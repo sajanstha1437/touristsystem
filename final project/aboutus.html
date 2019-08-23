@@ -1,0 +1,332 @@
+<html>
+<head>
+	<title>Final Project</title>
+	<link rel="stylesheet" href="slider.css" type="text/css">
+	<script type="text/javascript" src="main.js"></script>
+	
+<link href="css/aboutus.css" type="text/css" rel="stylesheet"/>
+<link href="css/gallery.css" type="text/css" rel="stylesheet"/>
+
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+    <style>
+		#package_table{
+			width:90%;
+			height:250px;
+			margin:auto;
+			display:block;
+			box-shadow:10px;
+			text-align:left;
+			box-shadow:20px, 20px black;	
+		}
+		
+		#package4, #package3, #package2, #package1{
+			width:90%;
+			height:250px;
+			margin:auto;
+			display:none;
+			border:5px groove white;
+			border-radius:20px 20px;
+			box-shadow:10px;
+			text-align:left;
+			
+			box-shadow:20px, 20px black;
+			}
+		#package_table img, #package4 img, #package3 img, #package2 img, #package1 img{
+			float:left;
+			border-radius:20px;
+			width:250px;
+			height:150px;
+			margin-right:5px;
+		}
+	</style>
+    
+    
+    
+    </head>
+
+
+
+<body>
+
+
+	<div id=bannerdiv>
+	 
+	</div>
+	<div id=menudiv>
+			<table align="right">
+				<tr>
+					<td ><a href="index.html">Home</a></td>
+					<td ><a href="intro.html">Introduction</a></td>
+					<td><a href="aboutus.html">About Us</a></td>
+					<td><a href="gallery.html">Gallery</a></td>
+					<td><a href="reservation.php">Reservation</a></td>
+				  <td><a href="issues.php">Issues</a>			 
+				  </td>
+					
+				</tr>
+			</table>
+
+	</div>
+		
+	<div id=bodydiv>
+		<div id=body_left> 
+
+			<div id=body_left_top>
+            <script>
+				function showPackage1(){
+					document.getElementById("package1").style.display="block";
+					document.getElementById("package2").style.display="none";
+					document.getElementById("package3").style.display="none";
+					document.getElementById("package4").style.display="none";
+					document.getElementById("package_table").style.display="none";
+				}
+				function showPackage2(){
+					document.getElementById("package1").style.display="none";
+					document.getElementById("package2").style.display="block";
+					document.getElementById("package3").style.display="none";
+					document.getElementById("package4").style.display="none";
+					document.getElementById("package_table").style.display="none";
+				}
+				function showPackage3(){
+					document.getElementById("package1").style.display="none";
+					document.getElementById("package2").style.display="none";
+					document.getElementById("package3").style.display="block";
+					document.getElementById("package4").style.display="none";
+					document.getElementById("package_table").style.display="none";
+				}
+				function showPackage4(){
+					document.getElementById("package1").style.display="none";
+					document.getElementById("package2").style.display="none";
+					document.getElementById("package3").style.display="none";
+					document.getElementById("package4").style.display="block";
+					document.getElementById("package_table").style.display="none";
+				}
+				function showhover1(){
+					document.getElementById("img1").style.opacity="1";
+					document.getElementById("img2").style.opacity="0.5";
+					document.getElementById("img3").style.opacity="0.5";
+					document.getElementById("img4").style.opacity="0.5";
+					document.getElementById("img5").style.opacity="0.5";
+				}
+					function showhover2(){
+					document.getElementById("img1").style.opacity="0.5";
+					document.getElementById("img2").style.opacity="1";
+					document.getElementById("img3").style.opacity="0.5";
+					document.getElementById("img4").style.opacity="0.5";
+					document.getElementById("img5").style.opacity="0.5";
+				}
+				function showhover3(){
+					document.getElementById("img1").style.opacity="0.5";
+					document.getElementById("img2").style.opacity="0.5";
+					document.getElementById("img3").style.opacity="1";
+					document.getElementById("img4").style.opacity="0.5";
+					document.getElementById("img5").style.opacity="0.5";
+				}
+				function showhover4(){
+					document.getElementById("img1").style.opacity="0.5";
+					document.getElementById("img2").style.opacity="0.5";
+					document.getElementById("img3").style.opacity="0.5";
+					document.getElementById("img4").style.opacity="1";
+					document.getElementById("img5").style.opacity="0.5";
+				}
+				function showhover5(){
+					document.getElementById("img1").style.opacity="0.5";
+					document.getElementById("img2").style.opacity="0.5";
+					document.getElementById("img3").style.opacity="0.5";
+					document.getElementById("img4").style.opacity="0.5";
+					document.getElementById("img5").style.opacity="1";
+				}
+				function back(){
+					document.getElementById("img1").style.opacity="1";
+					document.getElementById("img2").style.opacity="1";
+					document.getElementById("img3").style.opacity="1";
+					document.getElementById("img4").style.opacity="1";
+					document.getElementById("img5").style.opacity="1";
+				}
+			
+			</script>
+            
+            		 <div id="package_table">
+                     <br/><br/>
+						<img src="images/nature.jpg"/>
+                         <b><u>Package 1:</u></b><br/>
+						 <p>
+						 Pokhara is known with its natural beauty and the peace environment eith the most of famous place to vistit. 
+						 Pokhara is known as the cerapunga of Nepal as itis the most rainy place in Nepal.
+						 
+					<br/>
+					
+						Details:Fewa Lake boating, looking talbarahi temple, mahendra gupha, chamero ghupha, davis falls, seti river, chinese gumba, stupa, paraglading,
+						bungijumping<br/> for 4 days packages with Rs. 40000 per person<br/>
+						</p>
+						
+                            </div>
+            		
+                     <div id="package1">
+                     <br/><br/>
+						<img src="images/package1.jpg"/>
+                        <b><u>Package 2:</u></b><br/>
+						<p>
+						Mountain traking is one of the favourate place.Tourist visit to Nepal wants to go for mountaining. <br/>
+						 Details:
+						 <br/>Full package for ABC campe from kathmandu for 5 days travel we will provide hotel and ladgaging facilities for a single trip with
+						 Rs. 50000 per person<br/>
+						 </p>
+						 </div>
+                   
+                     <div id="package2">
+                     <br/><br/>
+						<img src="images/package2.jpg"/>
+                         <b><u>Package 3 :</u></b><br/>
+						 <p>
+						 temple and culture ok kathmandu . There are lots of tourist attractions,and then there are some special places 
+						 where locals and tourist come to share common interests,you can go to durbar square,swayambhunath,thamel, pashupatinath, kumari bahal,bhojan griha
+						 <br/>Rs. 5000 per person for one day trip<br/>
+						 </p>
+						 </div>
+                    
+                     <div id="package3">
+                     <br/><br/>
+						<img src="images/package3.jpg"/>
+                         <b><u>Package 4:</u></b><br/>
+						 <p>
+						 most people spend few days in pokhara before or after their himalayan treks.you can see different beautiful place 
+						 in pokhara.<br/>Rs. 12000 per person for two days trip<br/>
+						 </p>
+                    </div>
+                    
+                    <div id="package4">
+                    <br/><br/>
+						<img src="images/package4.jpg"/>
+                         <b><u>Package 5:</u></b><br/>
+						 <p>
+                            Chitwan is a place know wirh the National park name as chitwan national park.We can go for jungle suffari and the real adventures.
+							You can see different wild animal and the most rarer one horn rhino only found in nepal.<br/>
+                             you can book this package with the comfortable price with Rs. 10000 per person from kathmandu for 2 days package<br/>
+							 <br/>
+                            Package Details: Jungle suffari, Can experiance the riding on elephent and see the real adventures of jungle looking wild animal.<br/>
+							</p>
+                          </div>
+                    
+                    <table height="50%" width="100%">
+						<tr>
+							 <td class="image" width="20%"><img src="images/package1.jpg" id="img1" height="100px" width="100%" onMouseOver="showhover1()" onMouseOut="back()" onClick="showPackage1()"/td>
+							<td class="image" width="20%"><img src="images/package2.jpg" id="img2" height="100px" width="100%" onMouseOver="showhover2()" onMouseOut="back()" onClick="showPackage2()"/></td>
+							<td class="image" width="20%"><img src="images/package3.jpg" id="img3" height="100px" width="100%" onMouseOver="showhover3()" onMouseOut="back()" onClick="showPackage3()"/></td>
+							<td class="image" width="20%"><img src="images/package4.jpg" id="img4" height="100px" width="100%" onMouseOver="showhover4()" onMouseOut="back()" onClick="showPackage4()"/></td>
+							
+								 
+							
+						</tr>
+                   
+					</table>
+                
+                
+                
+				</div>
+
+			<div id=body_left_bottomleft>
+				<img src="images/rhino.jpg" width="250px" height="200px"/>
+			</div>
+			<div id=body_left_bottomiddle>
+				<img src="images/buddha.jpg" width="250px" height="200px"/>
+			</div>
+
+			<div id=body_left_bottomright>
+				<img src="images/himal.jpg" width="250px" height="200px"/>
+			</div>
+
+
+
+		</div>
+		<div id=body_right>
+		<div id=body_right_top>
+			<form action="../src10/users/login.html" method="POST">
+				<table>
+					<tr>
+						<td colspan="2">Users Login!!! </td>
+						
+					</tr>
+					<tr>
+						<td>Username:</td>
+						<td><input type="text" name="username" style="width:130px;"></td>
+					</tr>
+					<tr>
+						<td>Password:</td>
+						<td><input type="password" name="password" style="width:130px;"></td>
+					</tr>
+					<tr>
+						<td colspan="2"><p style="text-decoration:underline;"><button>Users Login</button>
+								<a href="admin/indexs.php">Admin Login</a></p>
+						</td>
+						
+					</tr>
+					 
+				</table>
+			</form> 
+
+		</div>
+	
+	
+		<div id=body_right_bottom>
+        
+		<table>
+        <tr>
+				<td><p class="explore">Explore Over</p> <p id="nepal">Nepal</p></td>
+		  </tr>
+			<tr>
+				<td><a href="state1.html">State No.1</a></td>
+			</tr>
+			<tr>
+				<td><a href="state2.html">State No.2</td>
+			</tr>
+			<tr>
+				<td><a href="state3.html">State No.3</td>
+			</tr>
+			<tr>
+				<td><a href="state4.html">State No.4</td>
+			</tr>
+			<tr>
+				<td><a href="state5.html">State No.5</td>
+			</tr>
+			<tr>
+				<td><a href="state6.html">State No.6</td>
+			</tr>
+			<tr>
+				<td><a href="state7.html">State No.7</td>
+					
+			</tr>
+		
+			
+		</table>
+		
+         </div>
+
+		</div>
+	
+
+</div>
+<div id="footerdiv">
+	<table align="center">
+		<tr>
+			<td align="center">
+				<p> <a href="index.html">Home</a>| 
+					<a href="aboutus.html">About us</a>| 
+					<a href="gallery.html">Gallery</a>| 
+					<a href="reservation.html">Reservation</a>| 
+					<a href="contact.html">Contact Us</a><br/>
+			Copyrights all reserved @TouristManagementCommitteeNepal.<br/>2018</p>
+			</td>
+		</tr>
+	</table>
+
+</div>
+
+</body>
+
+
+</html>
