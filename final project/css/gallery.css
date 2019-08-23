@@ -1,0 +1,300 @@
+@charset "utf-8";
+/* CSS Document */
+
+	
+img:hover{
+	border:2px solid red;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	background-image: url("../images/background.jpg");	
+}
+
+#maindiv{
+	height:auto;;
+	width:80%;
+	margin:auto;
+	//background-image: linear-gradient(skyblue, white);
+	}
+
+#bannerdiv{
+	margin:auto;
+	background-image: url("../images/visitnepal2020.png");
+	background-size:100%, 100%;
+	background-repeat: no-repeat;
+	height:150px;
+	width: 1000px;
+	}
+
+#banner_h1{
+	color:yellow;
+	text-align: center;
+	text-decoration: underline;
+	padding:50px;
+	}
+	
+#menudiv {
+    margin: auto;
+    height: 30px;
+    width: 1000px;
+	background-color:maroon;
+	}
+	#menudiv td{
+		
+		border:1px, none;
+		border-top-left-radius: 10px;
+		background-color: maroon;
+		height:25px;
+		width:160px;
+		color: white;
+		text-align: center;
+		}
+	#menudiv td a:link{
+		color:white;
+		text-decoration: none;
+		}
+	#menudiv td a:hover{
+		color:white;
+		text-decoration: underline;
+		}
+	#menudiv td a:visited{
+		color:white;
+		text-decoration: none;
+		}
+	#menudiv td a:active{
+		color:red;
+		text-decoration: none;
+		}
+
+#bodydiv{
+	height:800px;
+	margin:auto;
+	width:1000px;
+	}
+	
+	#body_left{
+		height:720px;
+		float:left;
+		width:750px;
+		
+	
+		}
+
+		#body_left_top{
+			height:480px;
+			width:95%;
+			margin:0px;
+			padding: 10px;
+			border: 5px groove white;
+			text-align:center;
+			background-image:linear-gradient(white,lightyellow);
+			}
+			#body_left_top  td{
+			width:25%;
+			text-align:center;
+			}
+
+		#body_left_bottomleft{
+			height:200px;
+			width:250px;
+			float:left;
+			background-color: grey;
+			}
+		
+		#body_left_bottomiddle{
+			height:200px;
+			width:250px;
+			float:left;
+			}
+		
+		#body_left_bottomright{
+			height:200px;
+			width:250px;
+			float:right;
+			background-color: red;
+			}
+			
+	#body_right{
+		float:right;
+		width:250px;
+		height:720px;
+		}
+
+		#body_right_top{
+			height:210px;
+			margin:0px;
+			width:100%;
+			background-image: linear-gradient(skyblue,white);
+			margin-bottom: 1px;
+			}
+		
+			#body_right_top table{
+				width:100%;
+				color:white;
+				text-align:center;
+				}
+			#body_right_top td{
+				background-color: maroon;
+				padding-left:5px;
+				height:40px;
+				width:50%;
+				}	
+			#body_right_top td a:link{
+				color:white;
+				text-align:center;
+				text-decoration:none;
+				}
+			#body_right_top td a:hover{
+				color:white;
+				text-decoration:none;
+				}
+			#body_right_top td a:visited{
+				color:white;
+				text-decoration:none;
+				}
+			#body_right_top td a:active{
+				color:white;
+				text-decoration:none;
+				}
+
+		#body_right_bottom{
+			height:500px;
+			margin:auto;
+			width:100%;
+			background-image:linear-gradient(white,skyblue);
+			margin-top: 1px;
+			}
+			#body_right_bottom table{
+			width:100%;
+			height:auto;
+			//background-image:linear-gradient(white,skyblue);
+			}
+			#body_right_bottom td {
+				height:50px;	
+			}
+			#body_right_bottom td a:link{
+				color: maroon;	
+				text-decoration:none;
+			}
+			#body_right_bottom td a:hover{
+				color: maroon;	
+				text-decoration:underline;
+			}
+			#body_right_bottom td a:visited{
+				color: maroon;	
+				text-decoration:none;
+			}
+			#body_right_bottom td a:active{
+				color: maroon;	
+				text-decoration:none;
+			}
+			#body_right_bottom td:nth-child(2n+1){
+			
+					text-indent:20px;
+			}
+			#body_right_bottom td:nth-child(2n){
+			
+					text-indent:20px;
+			}
+
+#footerdiv{
+	height:100px;
+	width:1000px;
+	margin:auto;
+	background-color: maroon;
+}
+
+	#footerdiv td{
+		padding:10px;
+		color:white;
+	}
+	#footerdiv a:link {
+
+		color: white;
+	}
+	#footerdiv a:hover {
+
+		color: blue;
+	}
+	#footerdiv a:visited {
+
+		color: white;
+	}
+	#footerdiv a:active {
+
+		color: red;
+	}
+.explore{
+	font-size:18px;
+	text-align:center;
+}
+#Nepal{
+	font-size:24px;
+	text-align:center;
+	font-weight:bold;
+}
+	#body_left_topleftdiv, #body_left_topcenterdiv, #body_left_topcenter2div, #body_left_toprightdiv{
+			width:21%;
+			height:150px;
+			background-color:skyblue;
+			border:2px groove maroon;
+			border-radius:10px 10px;
+			box-shadow:10px 10px lightgrey;
+			
+		}
+		#body_left_topleftdiv, #body_left_topcenterdiv, #body_left_topcenter2div {
+			float:left;
+			margin-right:32px;
+		}
+		
+		#body_left_toprightdiv {
+			float:right;
+		}
+		
+		#body_left_topleftdiv:hover, #body_left_topcenterdiv:hover, #body_left_topcenter2div:hover, #body_left_toprightdiv:hover{
+			transform:scale(1.01);
+			border-color:red;
+		}
+		
+		#body_left_topleftdiv p{
+			text-align:justify;
+			padding-top:10px;
+			color:maroon;
+			padding:5px;
+		}
+		
+		#topupdiv{
+			width:100%;
+			height:230px;
+			text-align:left;
+			padding-left:5px;
+		}
+		#toplowdiv{
+			width:100%;
+		}
+		#topLeftDescDiv, #topCenterDescDiv, #topCenter2DescDiv, #topRightDiv{
+			height:30px;
+			background-color:grey;
+			box-shadow:10px 10px lightgrey;
+			width:21%;
+			border:2px groove maroon;
+			border-radius:10px 10px;
+			margin-top:10px;
+			color:lightyellow;
+			padding-top:2px;
+		}
+		#topLeftDescDiv, #topCenterDescDiv, #topCenter2DescDiv{
+			margin-right:32px;
+			float:left;
+			}
+		#topRightDiv{
+			
+			float:right;
+			
+		}
+		#topupdiv a, #toplowdiv a{
+			color:white;
+			text-decoration:none;
+		}
