@@ -1,0 +1,462 @@
+<?php
+include("includes/config.php");
+
+?>
+<html>
+<head>
+	<title>Final Project</title>
+	<link rel="stylesheet" href="slider.css" type="text/css">
+	<script type="text/javascript" src="main.js"></script>
+	
+<link rel="stylesheet" href="css/index.css" type="text/css"/>
+<link rel="stylesheet" href="css/aboutus.css" type="text/css"/>
+
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+    <style>
+		#body_top{
+			width:100%;
+			background-color:skyblue;
+		}
+		#body_top_left{
+			width:100%;
+			
+		}
+		#bottomdiv{
+			width:100%;
+			background-color:lightgreen;
+		}
+		#bottomtable td, th{
+		background-color:skyblue;
+		border-bottom:1px thin red;
+		#dropdown-menu{
+			z-index:1;
+		}
+		}
+		#state1{
+			display:none;
+		}
+		#state2{
+			display:none;
+		}
+		#state3{
+			display:none;
+		}
+		#state4{
+			display:none;
+		}
+		#state5{
+			display:none;
+		}
+		#state6{
+			display:none;
+		}
+		#state7{
+			display:none;
+		}
+	</style>
+    
+    
+    </head>
+
+
+
+<body>
+
+	<div id=bannerdiv></div>
+	<div id=menudiv>
+		<table align="right">
+			<tr>
+				<td ><a href="index.html">Home</a></td>
+				<td ><a href="intro.html">Introduction</a></td>
+				<td><a href="aboutus.html">About Us</a></td>
+				<td><a href="gallery.html">Gallery</a></td>
+				<td><a href="reservation.php">Reservation</a></td>
+				 <td><a href="issues.php">Issues</a>				
+					</td>
+				
+			</tr>
+		</table>
+	</div>
+
+	<div id=bodydiv>
+		<div id=body_top> 
+
+			<div id=body_top_left>
+				<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+				<!--image slider from wowslider.com -->
+                <div id="wowslider-container0">
+                <div class="ws_images">
+                    <ul>
+                        <li><img src="data0/images/buddha.jpg" alt="buddha" title="buddha" id="wows0_0"/></li>
+						<!-- imagesource:https://www.thamserkutrekking.com/images/cnceverest/place/170913071203swayambhu-banner.jpg-->
+                        <li><img src="data0/images/himal.jpg" alt="himal" title="himal" id="wows0_1"/></li>
+						<!-- imagesource: https://www.pandotrip.com/wp-content/uploads/2015/11/Gokyo-Photo-by-Maciej-Bledowski-980x548.jpg-->
+						
+                        <li><a href="http://wowslider.net"><img src="data0/images/nature.jpg" alt="jquery carousel slider" title="nature" id="wows0_2"/></a></li>
+						<!-- imagesource: https://www.himalayan-dreams.com/media/k2/items/cache/fedea746cd0ecb257a1249d3a2a80bb1_XL.jpg-->
+                        <li><img src="data0/images/rhino.jpg" alt="rhino" title="rhino" id="wows0_3"/></li>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/b/b7/One_horn_Rhino_in_Kaziranga_national_park.jpg-->
+                        <li><img src="data0/images/danphe.jpg" alt="danphe" title="danphe" id="wows0_4"/></li>
+						<!-- imagesource: https://pbs.twimg.com/media/DZUcuZ1U0AIz_EP.jpg-->
+                    </ul>
+                </div>
+                <div class="ws_bullets">
+                    <div>
+                        <a href="#" title="buddha"><span><img src="data0/tooltips/buddha.jpg" alt="buddha"/>1</span></a>
+                        <a href="#" title="himal"><span><img src="data0/tooltips/himal.jpg" alt="himal"/>2</span></a>
+                        <a href="#" title="nature"><span><img src="data0/tooltips/nature.jpg" alt="nature"/>3</span></a>
+                        <a href="#" title="rhino"><span><img src="data0/tooltips/rhino.jpg" alt="rhino"/>4</span></a>
+                        <a href="#" title="danphe"><span><img src="data0/tooltips/danphe.jpg" alt="danphe"/>5</span></a>
+                    </div>
+                </div>
+                <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">image slider</a> by WOWSlider.com v8.8
+                </div>
+                <div class="ws_shadow"></div>
+             </div>	
+         
+              <div id="state1" width="100%" height="100%">
+             	<table height="auto" width="100%">
+                	<tr>
+                    	<td width="25%"><img src="images/a.jpeg" width="250px" height="150px"/><p> Province No. 1</p></td>
+						<!-- imagesource: https://www.tourismmail.com/public/uploads/2018/06/Province-1.jpg-->
+						<td width="25%"><img src="images/b.jpg" width="250px" height="150px"/><p> Halesi Mahadev</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Halesi_Mahadev_Temple.jpg/800px-Halesi_Mahadev_Temple.jpg-->
+                    	<td width="25%"><img src="images/c.jpg" width="250px" height="150px"/><p> Namche Bazaar Stupa</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/e/e6/Stupa_at_Namche_Bazaar.jpg-->
+                    	<td width="25%"><img src="images/d.jpeg" width="250px" height="150px"/><p> Mount Everest</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg/1024px-Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg-->
+                    </tr>
+                    <tr>
+                    	<td width="25%"><img src="images/e.jpg" width="250px" height="150px"/><p>Gokyo lake</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Gokyo_Lakes_01.jpg/800px-Gokyo_Lakes_01.jpg-->
+						<td width="25%"><img src="images/f.jpg" width="250px" height="150px"/><p> Vedetar</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Vedetar_2019_web_small.jpg/800px-Vedetar_2019_web_small.jpg-->
+                    	<td width="25%"><img src="images/g.jpg" width="250px" height="150px"/><p> Illam Tea Garden</p></td>
+						<!-- imagesource: https://naulotravels.com/wp-content/uploads/2018/08/img2tea-garden-1405502689.jpg-->
+                    	<td width="25%"><img src="images/h.jpg" width="250px" height="150px"/><p>Biratnagar</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Biratnagar_Main_Gate-1030.jpg/800px-Biratnagar_Main_Gate-1030.jpg-->
+                    </tr>
+                </table>
+             
+             </div>
+              <div id="state2" width="100%" height="100%">
+             	<table height="auto" width="100%">
+                	<tr>
+                    	<td width="25%"><img src="images/i.png" width="250px" height="150px" /><p> Province No. 2</p></td>
+						<td width="25%"><img src="images/j.jpg" width="250px" height="150px"/><p> Birgun Gate</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Shankharacharya_Gate%2C_Birgunj.jpg/800px-Shankharacharya_Gate%2C_Birgunj.jpg-->
+                    	<td width="25%"><img src="images/k.jpg" width="250px" height="150px" /><p>Kankalini Temple</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Kankalini_Temple_5983.jpg/800px-Kankalini_Temple_5983.jpg-->
+                    	<td width="25%"><img src="images/l.jpg" width="250px" height="150px"/><p>Gadhimai Temple</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Gadhimai_temple.jpg/800px-Gadhimai_temple.jpg-->
+                    </tr>
+                    <tr>
+                    	<td width="25%"><img src="images/m.jpg" width="250px" height="150px"/><p> Jaleshwor</p></td>
+						<!-- imagesource: https://photos.wikimapia.org/p/00/02/80/06/53_big.jpg-->
+                    	<td width="25%"><img src="images/n.jpg" width="250px" height="150px"/><p> Birgunj Pond</p></td>
+						<!-- imagesource: https://photos.wikimapia.org/p/00/02/80/06/53_big.jpg-->
+                    	<td width="25%"><img src="images/o.jpg" width="250px" height="150px"/><p> Baba Taal</p></td>
+						<!-- imagesource: https://i.ytimg.com/vi/LIoKGtqskKE/maxresdefault.jpg-->
+                    	<td width="25%"><img src="images/p.jpg" width="250px" height="150px"/><p> Ram Janaki Temple</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Ram_Janaki_Temple%2C_Dhanusha.jpg/1280px-Ram_Janaki_Temple%2C_Dhanusha.jpg-->
+                     </tr>
+                </table>
+             
+             </div>
+              <div id="state3" width="100%" height="100%">
+             	<table height="auto" width="100%">
+                	<tr>
+                    	<td width="25%"><img src="images/q.png" width="250px" height="150px"/><p>Province No.3</p></td>
+						<!--image source: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Peovince_-3%2C_Nepal.png/800px-Peovince_-3%2C_Nepal.png-->
+						<td width="25%"><img src="images/r.jpg" width="250px" height="150px"/><p>PahupatiNath Temple</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/%E0%A4%AA%E0%A4%B6%E0%A5%81%E0%A4%AA%E0%A4%A4%E0%A4%BF%E0%A4%A8%E0%A4%BE%E0%A4%A5_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0_10.jpg/800px-%E0%A4%AA%E0%A4%B6%E0%A5%81%E0%A4%AA%E0%A4%A4%E0%A4%BF%E0%A4%A8%E0%A4%BE%E0%A4%A5_%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0_10.jpg-->
+                    	<td width="25%"><img src="images/s.jpg" width="250px" height="150px"/><p>Gauri Shanker Mountain</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Garurishanker.jpg/1024px-Garurishanker.jpg-->
+                    	<td width="25%"><img src="images/t.jpg" width="250px" height="150px"/><p>Swayambhu Nath Temple</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Swayambhu_2017_41.jpg/1024px-Swayambhu_2017_41.jpg-->
+                    </tr>
+                    <tr>
+                    	<td width="25%"><img src="images/u.jpg" width="250px" height="150px"/><P> Patan Durbar Square</P></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Patan_Durbar_Square_Premises_%281%29.jpg/1024px-Patan_Durbar_Square_Premises_%281%29.jpg-->
+                    	<td width="25%"><img src="images/v.jpg" width="250px" height="150px"/><p>Chitwan National Park</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/One_horn_Rhino_manish.JPG/1024px-One_horn_Rhino_manish.JPG-->
+                    	<td width="25%"><img src="images/w.jpg" width="250px" height="150px"/><p>Bhaktapur Durbar Square</p></td>
+						<!-- iamgesource: https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Bhaktapur_Durbar_Premises.jpg/800px-Bhaktapur_Durbar_Premises.jpg-->
+                    	<td width="25%"><img src="images/x.jpg" width="250px" height="150px"/><p>Hanuman Dhoka Durbar Square</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Hanuman_Dhoka_Durbar_Square.jpg/800px-Hanuman_Dhoka_Durbar_Square.jpg-->
+                    	
+						
+                    </tr>
+                </table>
+             
+             </div>
+              <div id="state4" width="100%" height="100%">
+             	<table height="auto" width="100%">
+                	<tr>
+                    	<td width="25%"><img src="images/s41.jpg" width="250px" height="150px"/><p>Province No. 4</p></td>
+						<!-- imagesource: https://assets-cdn.kathmandupost.com/uploads/source/news/2018/miscellaneous/Province-4-06072018061411.jpg-->
+                    	<td width="25%"><img src="images/s42.jpg" width="250px" height="150px"/><p>Manakamana Temple</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Manakamana_Temple_-_panoramio.jpg/800px-Manakamana_Temple_-_panoramio.jpg-->
+                    	<td width="25%"><img src="images/s43.jpg" width="250px" height="150px"/><p>Tilicho Lake</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Tilicho_Lake_in_Summer.jpg/800px-Tilicho_Lake_in_Summer.jpg-->
+                    	<td width="25%"><img src="images/s44.jpg" width="250px" height="150px"/><p>Upper Mustang</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/ACAP_Upper_Mustang_Tangyejpg.jpg/800px-ACAP_Upper_Mustang_Tangyejpg.jpg-->
+                    </tr>
+                    <tr>
+                    	<td width="25%"><img src="images/s45.jpg" width="250px" height="150px"/><p>Machhapuchhre Mountain</></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Mt._Macchapucchhere_%2831%29.JPG/800px-Mt._Macchapucchhere_%2831%29.JPG-->
+                    	<td width="25%"><img src="images/s46.jpg" width="250px" height="150px"/><p>Annapurna Range</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Aerial_view_of_the_Annapurna_massif_-_Nepal_-_panoramio.jpg/1280px-Aerial_view_of_the_Annapurna_massif_-_Nepal_-_panoramio.jpg-->
+                    	<td width="25%"><img src="images/s47.jpg" width="250px" height="150px"/><p>Gorkha Palace</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Gorkha_Palace_durbar.jpg/1024px-Gorkha_Palace_durbar.jpg-->
+                    	<td width="25%"><img src="images/s48.jpg" width="250px" height="150px"/><p>Chhabdi Barahai Temple</p></td>
+						<!-- imagesource:https://i.ytimg.com/vi/WgwaHtltp-M/hqdefault.jpg-->
+                    </tr>
+                </table>
+             
+             </div>
+              <div id="state5" width="100%" height="100%">
+             	<table height="auto" width="100%">
+                	<tr>
+                    	<td width="25%"><img src="images/s51.png" width="250px" height="150px"/><p>Province No.5</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Province-5.png/300px-Province-5.png-->
+						<td width="25%"><img src="images/s52.jpg" width="250px" height="150px"/><p>MayaDevi Temple</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Lumbini_-_Mayadevi_Temple_from_West%2C_Lumbini_%289244235652%29.jpg/800px-Lumbini_-_Mayadevi_Temple_from_West%2C_Lumbini_%289244235652%29.jpg-->
+                    	<td width="25%"><img src="images/s53.jpg" width="250px" height="150px"/><p>Palpa Rani Mahal</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/BRP_Palpa_Ranimahal.jpg/800px-BRP_Palpa_Ranimahal.jpg-->
+                    	<td width="25%"><img src="images/s54.jpg" width="250px" height="150px"/><p>Bageshwori Temple</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bageshwori_Temple_Nepalgunj.JPG/800px-Bageshwori_Temple_Nepalgunj.JPG-->
+                    </tr>
+                    <tr>
+                    	<td width="25%"><img src="images/s55.jpg" width="250px" height="150px"/><p>Bardiya national Park</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bengal_Tiger_Bardiya.jpg/1024px-Bengal_Tiger_Bardiya.jpg-->
+                    	<td width="25%"><img src="images/s56.jpg" width="250px" height="150px"/><p>Supadeurali</p></td>
+						<!-- imagesource: https://i.pinimg.com/originals/f8/40/bd/f840bd40f15ebb3b78f7a3902dd01f09.jpg-->
+                    	<td width="25%"><img src="images/s57.jpg" width="250px" height="150px"/><p>Arghakhanchi Park</p></td>
+						<!-- imagesource: https://4.bp.blogspot.com/-eiF_I5mPQcA/Wa6FlyzzA_I/AAAAAAAACjM/DLeuYc68YOgjSuN4oLxN4sKoj0mT7aWNwCKgBGAs/s1600/20161016_133913.jpg-->
+                    	<td width="25%"><img src="images/s58.jpg" width="250px" height="150px"/><p>Dang</p></td>
+						<!-- iamgesource: https://timesofindia.indiatimes.com/thumb/msid-64900828,width-1200,height-900,resizemode-4/.jpg-->
+                    </tr>
+                </table>
+             
+             </div>
+              <div id="state6" width="100%" height="100%">
+             	<table height="auto" width="100%">
+                	<tr>
+                    	<td width="25%"><img src="images/s61.png" width="250px" height="150px"/><p>Province No. 6</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/3/3c/Karnali_Province_english.png-->
+						<td width="25%"><img src="images/s62.jpg" width="250px" height="150px"/><p>Kanjiroba Mountain</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kanjiroba_Mountain.JPG/1024px-Kanjiroba_Mountain.JPG-->
+                    	<td width="25%"><img src="images/s63.jpg" width="250px" height="150px"/><p>Narakot Sinja Valley</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Narakot_Sinja_Valley.JPG/800px-Narakot_Sinja_Valley.JPG-->
+                    	<td width="25%"><img src="images/s64.jpg" width="250px" height="150px"/><p>Simikot Valley</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Simikot_N.jpg/800px-Simikot_N.jpg-->
+                    </tr>
+                    <tr>
+                    	<td width="25%"><img src="images/s65.jpg" width="250px" height="150px"/><p>Rara Lake</p></td>
+						<!-- IAMGESOURCE: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/RARA_Lake_Mugu.jpg/800px-RARA_Lake_Mugu.jpg-->
+                    	<td width="25%"><img src="images/s66.jpg" width="250px" height="150px"/><p>Shey Phoksundo Lake</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Phucksumdo_lake.jpg/1024px-Phucksumdo_lake.jpg-->
+                    	<td width="25%"><img src="images/s67.jpg" width="250px" height="150px"/><p>Surkhet Ghantaghar</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Ghantaghar%40surkhet.JPG/800px-Ghantaghar%40surkhet.JPG-->
+                    	<td width="25%"><img src="images/s68.jpg" width="250px" height="150px"/><p>KharpuNath</p></td>
+						<!-- imagesource: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-9/21078327_444026412648163_3234273181790694493_n.jpg?_nc_cat=106&_nc_oc=AQll4-PdIXXZkxeuVuYliHhbShpc2ev1LXot1lZhPIJpOvw5hgJC9Tw2SksNy4ZyAkw&_nc_ht=scontent-nrt1-1.xx&oh=a04e34c86032bc757641cf93dea987f4&oe=5DE1B643-->
+						
+                    </tr>
+                </table>
+             
+             </div>
+              <div id="state7" width="100%" height="100%">
+             	<table height="auto" width="100%">
+                	<tr>
+                    	<td width="25%"><img src="images/s71.png" width="250px" height="150px"/><p>Province No.7</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Province_No.7.png/200px-Province_No.7.png-->
+                    	<td width="25%"><img src="images/s72.png" width="250px" height="150px"/><p>Saipal Mountain</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/e/e5/Mt_Saipal.png-->
+                    	<td width="25%"><img src="images/s73.png" width="250px" height="150px"/><p>Badi Malika Temple</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/9/99/Badi_Malika.png-->
+                    	<td width="25%"><img src="images/s74.jpg" width="250px" height="150px"/><p>Cultural Heritage Gangwon</p></td>
+						<!-- imagesource: https://c8.alamy.com/comp/F8RJPP/-F8RJPP.jpg-->
+                    </tr>
+                    <tr>
+                    	<td width="25%"><img src="images/s75.jpg" width="250px" height="150px"/><p>Khaptad Lake</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Pacific_Khaptad_lake.jpg/800px-Pacific_Khaptad_lake.jpg-->
+                    	<td width="25%"><img src="images/s76.png" width="250px" height="150px"/><p>Suklaphant National Park</p></td>
+						<!-- iamgesource: https://upload.wikimedia.org/wikipedia/commons/3/39/Swamp_deer_at_Shuklaphanta.png-->
+                    	<td width="25%"><img src="images/s77.jpg" width="250px" height="150px"/><p>Karnali Bridge</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/a/a1/Latest_photograph_of_Karnali_Bridge.jpg-->
+                    	<td width="25%"><img src="images/s78.jpg" width="250px" height="150px"/><p>Ghoda Ghodi Lake</p></td>
+						<!-- imagesource: https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Ghodaghodi_Lake1.JPG/800px-Ghodaghodi_Lake1.JPG-->
+                    </tr>
+                </table>
+             
+             </div>
+				<script type="text/javascript" src="engine0/wowslider.js"></script>
+                <script type="text/javascript" src="engine0/script.js"></script>
+                <!-- End WOWSlider.com BODY section -->
+            </div>
+       
+            <div id="bottomdiv">
+                <div id=body_left_bottomleft>
+                   <img src="images/buddha.jpg" width="100%" height="200px"/>
+                </div>
+                <div id=body_left_bottomiddle1>
+                <script type="text/Javascript">
+					function showState(){
+						document.getElementById("wowslider-container0").style.display="block";
+						document.getElementById("state1").style.display="none";
+						document.getElementById("state2").style.display="none";
+						document.getElementById("state3").style.display="none";
+						document.getElementById("state4").style.display="none";
+						document.getElementById("state5").style.display="none";
+						document.getElementById("state6").style.display="none";
+						document.getElementById("state7").style.display="none";
+						
+					}
+					function showState1(){
+						document.getElementById("wowslider-container0").style.display="none";
+						document.getElementById("state1").style.display="block";
+						document.getElementById("state2").style.display="none";
+						document.getElementById("state3").style.display="none";
+						document.getElementById("state4").style.display="none";
+						document.getElementById("state5").style.display="none";
+						document.getElementById("state6").style.display="none";
+						document.getElementById("state7").style.display="none";
+						
+						
+					}
+					function showState2(){
+						document.getElementById("wowslider-container0").style.display="none";
+						document.getElementById("state1").style.display="none";
+						document.getElementById("state2").style.display="block";
+						document.getElementById("state3").style.display="none";
+						document.getElementById("state4").style.display="none";
+						document.getElementById("state5").style.display="none";
+						document.getElementById("state6").style.display="none";
+						document.getElementById("state7").style.display="none";
+						
+						
+					}
+					function showState3(){
+						document.getElementById("wowslider-container0").style.display="none";
+						document.getElementById("state1").style.display="none";
+						document.getElementById("state2").style.display="none";
+						document.getElementById("state3").style.display="block";
+						document.getElementById("state4").style.display="none";
+						document.getElementById("state5").style.display="none";
+						document.getElementById("state6").style.display="none";
+						document.getElementById("state7").style.display="none";
+						
+					}
+						function showState4(){
+						document.getElementById("wowslider-container0").style.display="none";
+						document.getElementById("state1").style.display="none";
+						document.getElementById("state2").style.display="none";
+						document.getElementById("state3").style.display="none";
+						document.getElementById("state4").style.display="block";
+						document.getElementById("state5").style.display="none";
+						document.getElementById("state6").style.display="none";
+						document.getElementById("state7").style.display="none";
+						
+						
+					}
+					function showState5(){
+						document.getElementById("wowslider-container0").style.display="none";
+						document.getElementById("state1").style.display="none";
+						document.getElementById("state2").style.display="none";
+						document.getElementById("state3").style.display="none";
+						document.getElementById("state4").style.display="none";
+						document.getElementById("state5").style.display="block";
+						document.getElementById("state6").style.display="none";
+						document.getElementById("state7").style.display="none";
+						
+						
+					}
+					function showState6(){
+						document.getElementById("wowslider-container0").style.display="none";
+						document.getElementById("state1").style.display="none";
+						document.getElementById("state2").style.display="none";
+						document.getElementById("state3").style.display="none";
+						document.getElementById("state4").style.display="none";
+						document.getElementById("state5").style.display="none";
+						document.getElementById("state6").style.display="block";
+						document.getElementById("state7").style.display="none";
+						
+					}
+					function showState7(){
+						document.getElementById("wowslider-container0").style.display="none";
+						document.getElementById("state1").style.display="none";
+						document.getElementById("state2").style.display="none";
+						document.getElementById("state3").style.display="none";
+						document.getElementById("state4").style.display="none";
+						document.getElementById("state5").style.display="none";
+						document.getElementById("state6").style.display="none";
+						document.getElementById("state7").style.display="block";
+						
+					}
+				</script>
+                    
+                       <table id="bottomtable" width="100%" height="100%">
+                        <tr>
+                            <th align="center"><p onClick="showState()">Different states of Nepal</p></th>
+                        </tr>
+                        <tr>
+                            <td align="center"><p onClick="showState1()">Province No.1</p></td>
+                        </tr>
+                        <tr>
+                            <td align="center"><p onClick="showState2()">Province No.2</p></td>
+                        </tr>
+                        <tr>
+                            <td align="center"><p onClick="showState3()">Province No.3</p></td>
+                        </tr>
+                    </table>
+                </div>
+                 <div id=body_left_bottomiddle2>
+                     <table id="bottomtable" width="100%" height="100%">
+                        <tr>
+                            <td align="center"><p onClick="showState4()">Province No.4</p></td>
+                        </tr>
+                        <tr>
+                            <td align="center"><p onClick="showState5()">Province No.5</p></td>
+                        </tr>
+                        <tr>
+                            <td align="center"><p onClick="showState6()">Province No.6</p></td>
+                        </tr>
+                        <tr>
+                            <td align="center"><p onClick="showState7()">Province No.7</p></td>
+                        </tr>
+                    </table>
+                </div>
+    
+                <div id=body_left_bottomright>
+                    <img src="images/himal.jpg" width="100%" height="200px"/>
+                </div>
+			</div>
+		
+        
+
+		</div>
+	</div>
+	
+	<div id="footerdiv">
+		<table align="center" width="100%">
+			<tr>
+				<td align="center">
+					<p> <a href="index.html">Home</a>| 
+						<a href="aboutus.html">About us</a>| 
+						<a href="gallery.html">Gallery</a>| 
+						<a href="reservation.html">Reservation</a>| 
+						<a href="contact.html">Contact Us</a><br/>
+						Copyrights all reserved @TouristManagementCommitteeNepal.<br/>2018
+					</p>
+				</td>
+			</tr>
+		</table>
+
+	</div>
+	</body>
+	</html>
