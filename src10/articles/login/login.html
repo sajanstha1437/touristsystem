@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>TMS | Admin Sign in</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+body{
+	margin:0px;
+	padding:0px;
+	background-image:linear-gradient(skyblue,white);
+	height:1000px;
+
+}
+#signindiv{
+  //background-color:#f44242;
+	margin:auto;
+  height:500px;
+  width:40%;
+
+}
+.red{
+	background-color:#f44242;
+	color:white;
+	font-size: 16px;
+
+	}
+	.white{
+		background-color: white;
+	}
+	.border{
+		border:1px none;
+		width:100%;
+		height:100%;
+	}
+h1{
+	color:white;
+	font-family: Times New Roman;
+}
+h2{
+	color:white;
+	font-family: Times New Roman;
+	text-align:center;
+}
+.para{
+color:white;
+
+}
+	td{
+		height:20px;
+
+	}
+	.button{
+		background-color:blue;
+		color:white;
+		border:1px none;
+		font-family: Times New Roman;
+		font-size: 16px;
+		height:50px;
+		width:150px;
+	}
+</style>
+
+</head>
+<body>
+
+<div id=signindiv>
+	<form method="POST" action="check.php">
+<table style="border:0; height:100px; width:100%; margin:5px;padding:20px;">
+	<tr>
+			<td colspan="2"><h1 align=center>Log in Please !!!</h1></td>
+	</tr>
+	<tr>
+			<td class="red"><p align=center> Username</p></td>
+					<td class=white><input type="text" class=border name="username" class="name" placeholder="" required="">
+					</td>
+	</tr>
+	<tr>
+			<td class=red><p align=center> Password</p></td>
+					<td class=white><input type="password" class=border name="password" class="password" placeholder="" required="">
+					</td>
+	</tr>
+	<tr>
+			<td colspan="2" align="center"><br/><button class=button>Sign in</button></td>
+	</tr>
+</table>
+</form>
+</div>
+
+</body>
+</html>
